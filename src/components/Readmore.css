@@ -1,0 +1,41 @@
+.shadow{
+    position: relative;
+
+ 
+    background:linear-gradient(0deg, #000 ,#262626) ;
+}
+
+.shadow:before{
+    content: '';
+        position: absolute;
+        top: -5px;
+        left: -5px;
+        right: -5px;
+        bottom: -5px;
+        background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000);
+        background-size: 1000%;
+ 
+        z-index: -1;
+        animation:animate 30s linear infinite;
+
+    }
+
+    @keyframes animate{
+        0%{
+            background-position:0 0;
+
+    
+        }
+        50%{
+            background-position:400% 0;
+            
+    
+        }
+        100%{
+            background-position:0 0;
+            
+    
+        }
+    
+
+    }

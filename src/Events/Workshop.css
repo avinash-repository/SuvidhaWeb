@@ -1,0 +1,9 @@
+.circle-bullet::before{
+    content: "●"; 
+    display: inline-block;
+    color: black;
+    width: 1rem;
+
+
+
+}

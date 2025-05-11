@@ -1,0 +1,16 @@
+@keyframes snake {
+    0% {
+      background-position: -100% 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+  
+  .border-gradient {
+    border: 2px solid transparent;
+  
+    background-size: 200% 100%;
+    animation: snake 6s linear infinite;
+  }
+  

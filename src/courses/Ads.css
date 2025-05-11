@@ -1,0 +1,14 @@
+/* Ads.css */
+.video-iframe {
+    width: 100%;
+    height: 650px;
+  }
+  
+  @media (max-width: 768px) {
+    .video-iframe {
+    padding: 8px;
+    width: full;
+      height:300px;
+    }
+  }
+  

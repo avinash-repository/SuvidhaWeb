@@ -1,0 +1,12 @@
+.circle-bullets {
+    list-style-type: none; 
+    padding-left: 20px; 
+}
+
+.circle-bullets li:before {
+    content: "●"; /* Use a bullet character */
+    color: #000; /* Set color of bullet */
+    display: inline-block;
+    width: 1rem; /* Adjust size of bullet */
+  
+}
